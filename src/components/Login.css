@@ -1,0 +1,78 @@
+.login-container {
+    max-width: 25rem;
+    width: 100%;
+    padding: 2.7rem;
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    transform: translate(-50%, -50%);
+    background-color: #1b1c23;
+    background-image: linear-gradient(120deg, #2b2c36 #1b1c23, #101113);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.login-button {
+    background: linear-gradient(90deg, #1e1f28, #2c304e);
+    border: 1px solid #31345a;
+    height: 3rem;
+    width: 24rem;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #505aaa;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.welcome {
+    display: flex;
+    margin-top: -7%;
+    flex-direction: column;
+}
+
+.label {
+    color: #5f5f60;
+    font-weight: bold;
+}
+
+.social-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.register-link {
+    color: #b4bc5a;
+    text-decoration: underline;
+}
+
+/* Default styles */
+
+.logo {
+    padding: 3rem;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 562px) {
+
+    .login-container {
+        width: 50%;
+    }
+
+    .logo {
+        padding: 1rem;
+    }
+
+    .welcome h1 {
+        font-size: 1.5rem;
+    }
+
+    .social-buttons button {
+        font-size: 0.8rem;
+    }
+}

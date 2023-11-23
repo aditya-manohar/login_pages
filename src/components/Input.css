@@ -1,0 +1,19 @@
+.input {
+    width: 100%;
+    padding: 1.1rem;
+    margin: 1.2rem 0;
+    border-radius: 6px;
+    border: none;
+    text-align: left;
+    color: #3b3e45;
+    font-size: 15px;
+    background-color: #212428;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.label {
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    text-align: left;
+}

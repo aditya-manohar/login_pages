@@ -1,0 +1,50 @@
+.otp-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #1b1c23;
+    border-radius: 8px;
+    text-align: left;
+    display: grid;
+}
+
+.otpinput {
+    width: 3rem;
+    height: 3rem;
+    padding: 18px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+}
+
+input {
+    margin: .6rem 0;
+    border-radius: 6px;
+    border: none;
+    text-align: left;
+    color: rgb(117, 117, 117);
+    background-color: rgb(69, 69, 69);
+    box-sizing: border-box;
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+}
+
+.resend-link {
+    color: #555fb6;
+    padding: 1rem;
+}
+
+.otp-input-container {
+    display: flex;
+    justify-content: center;
+}
