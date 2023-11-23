@@ -27,7 +27,7 @@ export default function Register() {
             <center><img src={logo} alt="logo" style={{ padding: '4rem' }} /></center>
             <div className="signup-container">
                 <h1 style={{ color: 'white' }}>User Registration</h1>
-                <form onSubmit={handleEmailSubmit} >
+                <form onSubmit={''} >
                     <Input type={'text'} placeholder={'Enter first name'} label={'First Name*'} />
                     <Input type={'text'} placeholder={'Enter last name'} label={'Last Name*'} />
                     <Input type={'email'} placeholder={'Enter email'} label={'Email* (OTP Will Send To Email)'} value={email} onChange={(e) => setEmail(e.target.value)} />
