@@ -8,19 +8,19 @@ import { Link } from "react-router-dom";
 export default function Register() {
     const [email, setEmail] = useState('');
 
-    const handleEmailSubmit = (e) => {
-        e.preventDefault();
+    // const handleEmailSubmit = (e) => {
+    //     e.preventDefault();
 
-        axios
-            .post('http://localhost:3001/send-otp', { email })
-            .then(() => {
-                console.log('mail sent');
-            })
-            .catch((error) => {
-                console.log(error);
-                // Handle error or simply log it
-            });
-    };
+    //         axios
+    //             .post('http://localhost:3001/send-otp', { email })
+    //             .then(() => {
+    //                 console.log('mail sent');
+    //             })
+    //             .catch((error) => {
+    //                 console.log(error);
+    //                 // Handle error or simply log it
+    //             });
+    //     };
 
     return (
         <div>
