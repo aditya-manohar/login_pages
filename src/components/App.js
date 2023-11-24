@@ -7,13 +7,17 @@ import Otp from './Otp';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/otp' element={<Otp />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <Login />
+      <Register />
+      <Otp />
 
     </>
   );

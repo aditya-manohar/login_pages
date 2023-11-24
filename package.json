@@ -1,6 +1,6 @@
 {
+  "homepage": "https://aditya-manohar.github.io/login",
   "name": "auth",
-  "homepage": "https://github.com/aditya-manohar/scimics-login",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
